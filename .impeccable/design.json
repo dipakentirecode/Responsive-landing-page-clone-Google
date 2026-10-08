@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-08T13:31:48.1650651+05:30",
+  "title": "Design System: SynthID Detector — Google About",
+  "extensions": {
+    "colorMeta": {
+      "google-blue": {
+        "role": "primary",
+        "displayName": "Google Blue",
+        "canonical": "#4285f4",
+        "tonalRamp": ["#0d47a1", "#1565c0", "#1976d2", "#1e88e5", "#4285f4", "#64a6f5", "#90c5f8", "#e8f2fe"]
+      },
+      "google-action-blue": {
+        "role": "primary",
+        "displayName": "Google Action Blue",
+        "canonical": "#1a73e8",
+        "tonalRamp": ["#0b3d91", "#1558b0", "#1967d2", "#1a73e8", "#4285f4", "#669df6", "#a1c2fa", "#e8f0fe"]
+      },
+      "google-red": {
+        "role": "secondary",
+        "displayName": "Google Red",
+        "canonical": "#ea4335",
+        "tonalRamp": ["#7f1d18", "#a52714", "#c5221f", "#d93025", "#ea4335", "#f28b82", "#fce8e6", "#fef7f6"]
+      },
+      "google-yellow": {
+        "role": "secondary",
+        "displayName": "Google Yellow",
+        "canonical": "#fbbc05",
+        "tonalRamp": ["#7f6000", "#a67800", "#c58a00", "#e6a700", "#fbbc05", "#fdd663", "#fde293", "#fff8e1"]
+      },
+      "google-green": {
+        "role": "secondary",
+        "displayName": "Google Green",
+        "canonical": "#34a853",
+        "tonalRamp": ["#0d652d", "#137333", "#188038", "#2d9d52", "#34a853", "#81c995", "#ceead6", "#e6f4ea"]
+      },
+      "google-text": {
+        "role": "neutral",
+        "displayName": "Google Text",
+        "canonical": "#202124",
+        "tonalRamp": ["#111111", "#202124", "#3c4043", "#5f6368", "#80868b", "#9aa0a6", "#dadce0", "#f8f9fa"]
+      },
+      "muted-text": {
+        "role": "neutral",
+        "displayName": "Muted Text",
+        "canonical": "#5f6368",
+        "tonalRamp": ["#202124", "#3c4043", "#5f6368", "#70757a", "#80868b", "#9aa0a6", "#bdc1c6", "#f1f3f4"]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#ffffff",
+        "tonalRamp": ["#202124", "#3c4043", "#5f6368", "#80868b", "#9aa0a6", "#dadce0", "#f1f3f4", "#ffffff"]
+      },
+      "soft-gray": {
+        "role": "neutral",
+        "displayName": "Soft Gray",
+        "canonical": "#f1f3f4",
+        "tonalRamp": ["#202124", "#3c4043", "#5f6368", "#80868b", "#9aa0a6", "#bdc1c6", "#dadce0", "#f1f3f4"]
+      },
+      "border-gray": {
+        "role": "neutral",
+        "displayName": "Border Gray",
+        "canonical": "#dadce0",
+        "tonalRamp": ["#202124", "#3c4043", "#5f6368", "#80868b", "#9aa0a6", "#bdc1c6", "#dadce0", "#f8f9fa"]
+      },
+      "hero-mist": {
+        "role": "neutral",
+        "displayName": "Hero Mist",
+        "canonical": "#e9f4fa",
+        "tonalRamp": ["#18324a", "#31556f", "#507894", "#7ca1b8", "#a7c4d4", "#c7dce7", "#e9f4fa", "#f8fcfe"]
+      },
+      "hero-blue": {
+        "role": "neutral",
+        "displayName": "Hero Blue",
+        "canonical": "#bde5ff",
+        "tonalRamp": ["#123b5a", "#20597f", "#347aa6", "#5d9dc4", "#83bbda", "#a5d4ee", "#bde5ff", "#eaf7ff"]
+      },
+      "detector-screen": {
+        "role": "neutral",
+        "displayName": "Detector Screen",
+        "canonical": "#f8f9fe",
+        "tonalRamp": ["#25283a", "#45495e", "#666b82", "#8a8fa6", "#adb2c7", "#d0d4e2", "#e9ebf5", "#f8f9fe"]
+      },
+      "upload-blue": {
+        "role": "neutral",
+        "displayName": "Upload Blue",
+        "canonical": "#c5eafa",
+        "tonalRamp": ["#17435b", "#2d6784", "#4c8ba9", "#78b1cb", "#9fd0e4", "#b5dff0", "#c5eafa", "#edf9ff"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Centered page headline."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Supporting page copy."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Compact detector and navigation headings."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Footer and compact utility text."
+      },
+      "nav": {
+        "displayName": "Navigation",
+        "purpose": "Desktop navigation labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "phone-shell",
+        "value": "0 1px 2px rgb(32 33 36 / 38%)",
+        "purpose": "Subtle separation beneath the phone mockup."
+      },
+      {
+        "name": "upload-panel",
+        "value": "0 2px 7px rgb(60 64 67 / 8%)",
+        "purpose": "Faint lift beneath the illustrated upload panel."
+      },
+      {
+        "name": "mobile-navigation",
+        "value": "0 6px 12px rgb(60 64 67 / 12%)",
+        "purpose": "Separation for the expanded mobile menu."
+      },
+      {
+        "name": "cta-hover",
+        "value": "0 1px 3px rgb(60 64 67 / 18%)",
+        "purpose": "Hover-only depth on the Learn more link."
+      }
+    ],
+    "motion": [
+      {
+        "name": "phone-arrive",
+        "value": "850ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Phone illustration entrance."
+      },
+      {
+        "name": "link-state",
+        "value": "160ms ease-out",
+        "purpose": "Navigation and CTA color or surface transitions."
+      },
+      {
+        "name": "mobile-menu",
+        "value": "180ms ease-out",
+        "purpose": "Mobile menu and icon state transitions."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1921px"
+      },
+      {
+        "name": "tablet-max",
+        "value": "1024px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "767px"
+      },
+      {
+        "name": "compact-max",
+        "value": "380px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Active About Navigation Link",
+      "kind": "nav",
+      "refersTo": "navigation-active",
+      "description": "Current-section link with the page's restrained blue underline.",
+      "html": "<a class=\"ds-nav-link ds-nav-link-active\" href=\"#about\" aria-current=\"page\">About</a>",
+      "css": ".ds-nav-link { position: relative; display: inline-flex; min-height: 52px; align-items: center; padding: 0 0 4px; color: #5f6368; font: 400 20px Arial, Helvetica, sans-serif; text-decoration: none; transition: color 160ms ease-out; } .ds-nav-link:hover { color: #202124; } .ds-nav-link:focus-visible { outline: 3px solid #1a73e8; outline-offset: 4px; } .ds-nav-link-active { color: #202124; } .ds-nav-link-active::after { position: absolute; right: 0; bottom: 0; left: 0; height: 2px; background: #4285f4; content: \"\"; }"
+    },
+    {
+      "name": "Learn More Link",
+      "kind": "button",
+      "refersTo": "learn-more-link",
+      "description": "Outlined, pill-shaped call to action with a small arrow.",
+      "html": "<a class=\"ds-learn-link\" href=\"https://deepmind.google/technologies/synthid/\">Learn more about SynthID <svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M4 10h11m-4-4 4 4-4 4\" /></svg></a>",
+      "css": ".ds-learn-link { display: inline-flex; min-height: 48px; align-items: center; gap: 10px; padding: 0 18px; border: 1px solid #dadce0; border-radius: 24px; color: #1a73e8; font: 500 15px Arial, Helvetica, sans-serif; text-decoration: none; transition: background-color 160ms ease-out, border-color 160ms ease-out, box-shadow 160ms ease-out; } .ds-learn-link:hover { border-color: #d2e3fc; background: #f8fbff; box-shadow: 0 1px 3px rgb(60 64 67 / 18%); } .ds-learn-link:focus-visible { outline: 3px solid #1a73e8; outline-offset: 4px; } .ds-learn-link svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.6; }"
+    },
+    {
+      "name": "Illustrated Upload Panel",
+      "kind": "card",
+      "refersTo": "upload-panel",
+      "description": "Compact upload affordance shown inside the phone illustration; not an interactive upload component.",
+      "html": "<div class=\"ds-upload-panel\"><span class=\"ds-upload-media\">Media:</span><p class=\"ds-upload-prompt\">Upload a file for detection</p><span class=\"ds-upload-action\">Select file</span></div>",
+      "css": ".ds-upload-panel { display: flex; width: 84%; min-height: 156px; align-items: center; flex-direction: column; padding: 16px 13px 12px; border: 1px solid #dadce0; border-radius: 20px; background: rgb(255 255 255 / 76%); box-shadow: 0 2px 7px rgb(60 64 67 / 8%); font-family: Arial, Helvetica, sans-serif; } .ds-upload-media { align-self: stretch; color: #70757a; font-size: 10px; } .ds-upload-prompt { margin: 25px 0 20px; color: #202124; font-size: 13px; } .ds-upload-action { display: inline-flex; min-height: 22px; align-items: center; padding: 0 12px; border-radius: 99px; background: #c5eafa; color: #48788f; font-size: 9px; }"
+    },
+    {
+      "name": "Detector Phone Illustration",
+      "kind": "custom",
+      "refersTo": "detector-phone",
+      "description": "CSS phone silhouette framing the static detector mockup.",
+      "html": "<div class=\"ds-phone\"><div class=\"ds-phone-screen\"><div class=\"ds-phone-toolbar\">SynthID Detector</div><div class=\"ds-phone-content\"><strong class=\"ds-phone-title\">SynthID Detector</strong><span class=\"ds-phone-subtitle\">Identify AI generated media</span><span class=\"ds-phone-more\">Learn more</span></div></div></div>",
+      "css": ".ds-phone { width: min(304px, 23vw); height: 690px; padding: 0 5px; border: 1px solid #72777a; border-radius: 57px; background: linear-gradient(105deg, #151719, #4c5052 5%, #08090a 12%, #17191b 93%, #737779); box-shadow: inset 0 0 0 2px #aeb2b3, 0 1px 2px rgb(32 33 36 / 38%); } .ds-phone-screen { height: 100%; overflow: hidden; border-radius: 43px; background: #f8f9fe; box-shadow: inset 0 0 0 1px rgb(0 0 0 / 10%); } .ds-phone-toolbar { display: flex; height: 39px; align-items: center; padding: 0 13px; border-bottom: 1px solid #e8eaed; background: #fafbff; color: #3c4043; font: 400 12px Arial, Helvetica, sans-serif; } .ds-phone-content { display: flex; align-items: center; flex-direction: column; padding-top: 72px; font-family: Arial, Helvetica, sans-serif; } .ds-phone-title { color: #202124; font-size: 23px; font-weight: 500; letter-spacing: -0.7px; line-height: 1.2; } .ds-phone-subtitle { margin-top: 6px; color: #3c4043; font-size: 11px; } .ds-phone-more { margin-top: 15px; color: #5f6368; font-size: 9px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Google About, Product-First",
+    "overview": "The page follows the supplied Google About reference: a white navigation band and familiar multicolor wordmark lead into a quiet, pale blue-gray gradient with a centered SynthID Detector phone illustration. A large centered headline and muted explanatory copy continue the introduction below the hero, followed by one restrained Learn more link and a compact footer.\n\nArial is intentional: no original font asset was supplied, so the implementation uses the explicit Arial/Helvetica system stack. The phone is an HTML/CSS adaptation of the reference, not a supplied product image or a functioning detector; keep its illustrative status clear.",
+    "keyCharacteristics": [
+      "Google About page framing with a multicolor wordmark and restrained blue active state.",
+      "White space and centered content balanced by a softly graded hero.",
+      "A CSS-built phone demonstration, followed by concise copy and one outlined call to action."
+    ],
+    "rules": [
+      {
+        "name": "The Google About Frame Rule",
+        "body": "Preserve the white branded header, understated blue navigation state, and pale blue-gray showcase as the page's defining visual sequence.",
+        "section": "colors"
+      },
+      {
+        "name": "The Quiet Accent Rule",
+        "body": "Keep blue as a navigation, link, focus, and small mockup accent; let white, gray, and the pale hero gradient carry the larger surfaces.",
+        "section": "colors"
+      },
+      {
+        "name": "The Arial Without an Asset Rule",
+        "body": "Retain the implemented Arial/Helvetica stack unless an actual, approved font asset is added; do not imply a custom font is present.",
+        "section": "typography"
+      },
+      {
+        "name": "The Centered Showcase Rule",
+        "body": "Keep the illustrative phone centered in its hero field and preserve the transition from showcase to centered explanation.",
+        "section": "layout"
+      },
+      {
+        "name": "The State-Only Shadow Rule",
+        "body": "Keep shadows small and contextual; reserve the CTA shadow for hover and use the hero gradient, borders, and phone silhouette for primary depth.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do retain the multicolor Google wordmark, white header, subdued active underline, and pale blue-gray hero as one visual composition.",
+      "Do use the Arial/Helvetica stack and the observed responsive headline scale.",
+      "Do keep the CTA outlined, pill-shaped, and visually quieter than the headline and phone.",
+      "Do preserve responsive navigation and the reduced-motion behavior already present.",
+      "Do describe the phone as an illustration; the static page does not analyze media."
+    ],
+    "donts": [
+      "Don't introduce a new display font or claim a custom font asset was supplied.",
+      "Don't represent the illustrated Select file control as working detector functionality.",
+      "Don't replace the broad, pale hero field with a saturated color block or add heavy persistent shadows.",
+      "Don't turn the phone's CSS-only details into universal component requirements for unrelated surfaces."
+    ]
+  }
+}
